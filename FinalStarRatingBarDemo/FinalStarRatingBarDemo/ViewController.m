@@ -17,13 +17,22 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    FinalStarRatingBar *bar = [[FinalStarRatingBar alloc] initWithFrame:CGRectMake(0, 0, 320, 40)];
-    FinalStarRatingBar *bar2 = [[FinalStarRatingBar alloc] initWithFrame:CGRectMake(0, 50, 320, 40) starCount:10];
+    FinalStarRatingBar *bar = [[FinalStarRatingBar alloc] initWithFrame:CGRectMake(0, 40, 320, 40)];
+    FinalStarRatingBar *bar2 = [[FinalStarRatingBar alloc] initWithFrame:CGRectMake(0, 90, 320, 40) starCount:10];
     [self.view addSubview:bar];
     [self.view addSubview:bar2];
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 130, 320, 20)];
+    label.text = @"Current index for second bar";
+    UILabel *label2 = [[UILabel alloc] initWithFrame:CGRectMake(0, 150, 320, 20)];
+    label2.text = [NSString stringWithFormat:@"%d",bar2.rating];
+    [self.view addSubview:label];
+    [self.view addSubview:label2];
     [bar setRating:3];
-    [bar setRatingChangedBlock:^(NSUInteger rating) {
-        NSLog(@"rating:%d",rating);
+    //using block
+    [bar2 setRatingChangedBlock:^(NSUInteger rating) {
+        dispatch_async(dispatch_get_main_queue(), ^{
+            label2.text = [NSString stringWithFormat:@"%d",rating];
+        });
     }];
 	// Do any additional setup after loading the view, typically from a nib.
 }

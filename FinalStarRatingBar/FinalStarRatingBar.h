@@ -7,10 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
 @interface FinalStarRatingBar : UIControl
 @property (nonatomic) NSUInteger rating;
-@property (nonatomic,weak) void (^ratingChangedBlock)(NSUInteger rating);
+@property (nonatomic,copy) void (^ratingChangedBlock)(NSUInteger rating);
 -(id)initWithFrame:(CGRect)frame;
 -(id)initWithFrame:(CGRect)frame starCount:(NSUInteger)count;
 @end

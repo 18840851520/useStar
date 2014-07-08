@@ -398,6 +398,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FinalStarRatingBarDemo/FinalStarRatingBarDemo-Prefix.pch";
 				INFOPLIST_FILE = "FinalStarRatingBarDemo/FinalStarRatingBarDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -411,6 +412,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FinalStarRatingBarDemo/FinalStarRatingBarDemo-Prefix.pch";
 				INFOPLIST_FILE = "FinalStarRatingBarDemo/FinalStarRatingBarDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -475,6 +477,7 @@
 				80A70438196BA77C00D38C21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		80A70439196BA77C00D38C21 /* Build configuration list for PBXNativeTarget "FinalStarRatingBarDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +486,7 @@
 				80A7043B196BA77C00D38C21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
