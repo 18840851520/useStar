@@ -51,7 +51,12 @@ const NSUInteger DEFAULT_STAR_COUNT = 5;
 -(id)initWithCoder:(NSCoder *)aDecoder
 {
     if (self = [super initWithCoder:aDecoder]) {
-        [self initWithStarCount:DEFAULT_STAR_COUNT];
+        if(self.tag <= 0)
+        {
+            [self initWithStarCount:DEFAULT_STAR_COUNT];
+        }else{
+            [self initWithStarCount:self.tag];
+        }
     }
     return self;
 }
