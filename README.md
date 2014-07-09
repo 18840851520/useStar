@@ -18,6 +18,13 @@ How to use?
 >
 > 3.Use **tag** property to control the number of the stars.
 
+#### Receive rating changed notification
+    [bar2 setRatingChangedBlock:^(NSUInteger rating) {
+        dispatch_async(dispatch_get_main_queue(), ^{
+            NSLog(@"%d",rating);
+        });
+    }];
+
 #### Others
 > Set Rating	
 >
