@@ -6,7 +6,7 @@ How to use?
 -----------
 
 #### Create star rating bar.(5 Stars)
-		FinalStarRatingBar *bar = [[FinalStarRatingBar alloc] initWithFrame:CGRectMake(0, 40, 320, 40)];
+    FinalStarRatingBar *bar = [[FinalStarRatingBar alloc] initWithFrame:CGRectMake(0, 40, 320, 40)];
     [self.view addSubView:bar];
 #### Want more stars?
     FinalStarRatingBar *bar = [[FinalStarRatingBar alloc] initWithFrame:CGRectMake(0, 40, 320, 40) starCount:10];
