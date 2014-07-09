@@ -20,9 +20,7 @@ How to use?
 
 #### Receive rating changed notification
     [bar2 setRatingChangedBlock:^(NSUInteger rating) {
-        dispatch_async(dispatch_get_main_queue(), ^{
-            NSLog(@"%d",rating);
-        });
+        NSLog(@"%d",rating);
     }];
 
 #### Others
