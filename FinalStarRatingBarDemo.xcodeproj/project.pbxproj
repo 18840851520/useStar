@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		809F16381970D1F700C19159 /* FinalStarRatingBar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 809F16351970D1F700C19159 /* FinalStarRatingBar.bundle */; };
+		809F16391970D1F700C19159 /* FinalStarRatingBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 809F16371970D1F700C19159 /* FinalStarRatingBar.m */; };
 		80A70408196BA77C00D38C21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80A70407196BA77C00D38C21 /* Foundation.framework */; };
 		80A7040A196BA77C00D38C21 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80A70409196BA77C00D38C21 /* CoreGraphics.framework */; };
 		80A7040C196BA77C00D38C21 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80A7040B196BA77C00D38C21 /* UIKit.framework */; };
@@ -19,10 +21,6 @@
 		80A70427196BA77C00D38C21 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80A70426196BA77C00D38C21 /* XCTest.framework */; };
 		80A70428196BA77C00D38C21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80A70407196BA77C00D38C21 /* Foundation.framework */; };
 		80A70429196BA77C00D38C21 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80A7040B196BA77C00D38C21 /* UIKit.framework */; };
-		80A70431196BA77C00D38C21 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80A7042F196BA77C00D38C21 /* InfoPlist.strings */; };
-		80A70433196BA77C00D38C21 /* FinalStarRatingBarDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A70432196BA77C00D38C21 /* FinalStarRatingBarDemoTests.m */; };
-		80A7043F196BA7F500D38C21 /* FinalStarRatingBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 80A7043E196BA7F500D38C21 /* FinalStarRatingBar.m */; };
-		80A70443196BB17900D38C21 /* FinalStarRatingBar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 80A70442196BB17900D38C21 /* FinalStarRatingBar.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		809F16351970D1F700C19159 /* FinalStarRatingBar.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FinalStarRatingBar.bundle; sourceTree = "<group>"; };
+		809F16361970D1F700C19159 /* FinalStarRatingBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinalStarRatingBar.h; sourceTree = "<group>"; };
+		809F16371970D1F700C19159 /* FinalStarRatingBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinalStarRatingBar.m; sourceTree = "<group>"; };
 		80A70404196BA77C00D38C21 /* FinalStarRatingBarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalStarRatingBarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80A70407196BA77C00D38C21 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		80A70409196BA77C00D38C21 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -52,12 +53,6 @@
 		80A7041F196BA77C00D38C21 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		80A70425196BA77C00D38C21 /* FinalStarRatingBarDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalStarRatingBarDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		80A70426196BA77C00D38C21 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		80A7042E196BA77C00D38C21 /* FinalStarRatingBarDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FinalStarRatingBarDemoTests-Info.plist"; sourceTree = "<group>"; };
-		80A70430196BA77C00D38C21 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		80A70432196BA77C00D38C21 /* FinalStarRatingBarDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinalStarRatingBarDemoTests.m; sourceTree = "<group>"; };
-		80A7043D196BA7F500D38C21 /* FinalStarRatingBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinalStarRatingBar.h; sourceTree = "<group>"; };
-		80A7043E196BA7F500D38C21 /* FinalStarRatingBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinalStarRatingBar.m; sourceTree = "<group>"; };
-		80A70442196BB17900D38C21 /* FinalStarRatingBar.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FinalStarRatingBar.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,11 +79,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		809F16341970D1F700C19159 /* FinalStarRatingBar */ = {
+			isa = PBXGroup;
+			children = (
+				809F16351970D1F700C19159 /* FinalStarRatingBar.bundle */,
+				809F16361970D1F700C19159 /* FinalStarRatingBar.h */,
+				809F16371970D1F700C19159 /* FinalStarRatingBar.m */,
+			);
+			path = FinalStarRatingBar;
+			sourceTree = SOURCE_ROOT;
+		};
 		80A703FB196BA77C00D38C21 = {
 			isa = PBXGroup;
 			children = (
 				80A7040D196BA77C00D38C21 /* FinalStarRatingBarDemo */,
-				80A7042C196BA77C00D38C21 /* FinalStarRatingBarDemoTests */,
 				80A70406196BA77C00D38C21 /* Frameworks */,
 				80A70405196BA77C00D38C21 /* Products */,
 			);
@@ -117,7 +121,7 @@
 		80A7040D196BA77C00D38C21 /* FinalStarRatingBarDemo */ = {
 			isa = PBXGroup;
 			children = (
-				80A7043C196BA7C300D38C21 /* FinalStarRatingBar */,
+				809F16341970D1F700C19159 /* FinalStarRatingBar */,
 				80A70416196BA77C00D38C21 /* AppDelegate.h */,
 				80A70417196BA77C00D38C21 /* AppDelegate.m */,
 				80A70419196BA77C00D38C21 /* Main.storyboard */,
@@ -138,35 +142,6 @@
 				80A70415196BA77C00D38C21 /* FinalStarRatingBarDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		80A7042C196BA77C00D38C21 /* FinalStarRatingBarDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				80A70432196BA77C00D38C21 /* FinalStarRatingBarDemoTests.m */,
-				80A7042D196BA77C00D38C21 /* Supporting Files */,
-			);
-			path = FinalStarRatingBarDemoTests;
-			sourceTree = "<group>";
-		};
-		80A7042D196BA77C00D38C21 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				80A7042E196BA77C00D38C21 /* FinalStarRatingBarDemoTests-Info.plist */,
-				80A7042F196BA77C00D38C21 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		80A7043C196BA7C300D38C21 /* FinalStarRatingBar */ = {
-			isa = PBXGroup;
-			children = (
-				80A70442196BB17900D38C21 /* FinalStarRatingBar.bundle */,
-				80A7043D196BA7F500D38C21 /* FinalStarRatingBar.h */,
-				80A7043E196BA7F500D38C21 /* FinalStarRatingBar.m */,
-			);
-			name = FinalStarRatingBar;
-			path = ../../FinalStarRatingBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,7 +223,7 @@
 				80A70420196BA77C00D38C21 /* Images.xcassets in Resources */,
 				80A70412196BA77C00D38C21 /* InfoPlist.strings in Resources */,
 				80A7041B196BA77C00D38C21 /* Main.storyboard in Resources */,
-				80A70443196BB17900D38C21 /* FinalStarRatingBar.bundle in Resources */,
+				809F16381970D1F700C19159 /* FinalStarRatingBar.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +231,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80A70431196BA77C00D38C21 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				80A7041E196BA77C00D38C21 /* ViewController.m in Sources */,
-				80A7043F196BA7F500D38C21 /* FinalStarRatingBar.m in Sources */,
+				809F16391970D1F700C19159 /* FinalStarRatingBar.m in Sources */,
 				80A70418196BA77C00D38C21 /* AppDelegate.m in Sources */,
 				80A70414196BA77C00D38C21 /* main.m in Sources */,
 			);
@@ -278,7 +252,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80A70433196BA77C00D38C21 /* FinalStarRatingBarDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,14 +280,6 @@
 				80A7041A196BA77C00D38C21 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		80A7042F196BA77C00D38C21 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				80A70430196BA77C00D38C21 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
